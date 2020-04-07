@@ -9,9 +9,10 @@ require (
 	github.com/go-ini/ini v1.55.0
 	github.com/go-openapi/spec v0.19.7 // indirect
 	github.com/go-openapi/swag v0.19.8 // indirect
-	github.com/joho/godotenv v1.3.0
+	github.com/joho/godotenv v1.3.0 // indirect
 	github.com/mailru/easyjson v0.7.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
+	github.com/smartystreets/goconvey v1.6.4 // indirect
 	github.com/swaggo/gin-swagger v1.2.0
 	github.com/swaggo/swag v1.6.5
 	github.com/urfave/cli v1.22.4 // indirect
