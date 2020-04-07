@@ -1,6 +1,6 @@
 package main
 
-import "github.com/coy102/go-starter/internal/server"
+import server "github.com/coy102/go-starter/internal/server"
 
 // @title Blueprint Swagger API
 // @version 1.0

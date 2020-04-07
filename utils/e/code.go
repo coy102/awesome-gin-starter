@@ -1,4 +1,4 @@
-package constant
+package e
 
 const (
 	// Success code Response Message
@@ -8,3 +8,5 @@ const (
 	// InvalidParam code Response Message
 	InvalidParam = 400
 )
+
+

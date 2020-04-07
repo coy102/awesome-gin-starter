@@ -1,17 +1,15 @@
 package internal
 
 import (
-	"log"
 	"fmt"
 	"net/http"
+	"github.com/rs/zerolog/log"
 	"github.com/gin-gonic/gin"
-
 	"github.com/coy102/go-starter/endpoint"
 	setting "github.com/coy102/go-starter/internal/setting"
 )
 
 func init() {
-	// logging.Setup()
 	setting.Setup()
 }
 
@@ -34,7 +32,7 @@ func Run() {
 		MaxHeaderBytes: maxHeaderBytes,
 	}
 
-	log.Printf("[info] start http server listening %s", endPoint)
+	log.Info().Msgf("[info] start http server listening %s", endPoint)
 
 	server.ListenAndServe()
 }
