@@ -1,4 +1,4 @@
-package setting
+package internal
 
 import (
 	"log"
