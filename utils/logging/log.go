@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/coy102/go-starter/pkg/file"
+	"github.com/coy102/go-starter/utils/file"
 )
 
 // Level constant type

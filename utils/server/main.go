@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"github.com/coy102/go-starter/controller"
 
-	"github.com/coy102/go-starter/pkg/handlers"
-	"github.com/coy102/go-starter/pkg/setting"
+	"github.com/coy102/go-starter/utils/handlers"
+	"github.com/coy102/go-starter/utils/setting"
 	"github.com/gin-gonic/gin"
 )
 

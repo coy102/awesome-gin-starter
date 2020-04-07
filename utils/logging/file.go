@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/coy102/go-starter/pkg/setting"
+	"github.com/coy102/go-starter/utils/setting"
 )
 
 // getLogFilePath get the log file save path
