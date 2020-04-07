@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"github.com/gin-gonic/gin"
 
-	"github.com/coy102/go-starter/controller"
+	"github.com/coy102/go-starter/http"
 	"github.com/coy102/go-starter/pkg/handlers"
 	setting "github.com/coy102/go-starter/internal/setting"
 )

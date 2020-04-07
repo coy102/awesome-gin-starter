@@ -1,13 +1,12 @@
-package controller
+package http
 
 import (
-	 _ "github.com/coy102/go-starter/docs" // Generate docs
-	"github.com/coy102/go-starter/controller/v1"
-	"github.com/coy102/go-starter/controller/v2"
-
 	"github.com/gin-gonic/gin"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
+
+	"github.com/coy102/go-starter/http/v1"
+	_ "github.com/coy102/go-starter/docs" // Generated docs
 )
 
 // InitRouter initialize routing information
@@ -17,10 +16,7 @@ func InitRouter() *gin.Engine {
 	r.Use(gin.Recovery())
 
 	apiv1 := r.Group("/api/v1")
-	apiv2 := r.Group("/api/v2")
-
 	apiv1.GET("/ping", v1.Ping)
-	apiv2.GET("/ping", v2.Ping())
 
 	r.GET("/swagger/*any", ginSwagger.WrapHandler(swaggerFiles.Handler))
 	return r
