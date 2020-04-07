@@ -1,11 +1,11 @@
-package http
+package endpoint
 
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
 
-	"github.com/coy102/go-starter/http/v1"
+	"github.com/coy102/go-starter/endpoint/v1"
 	_ "github.com/coy102/go-starter/docs" // Generated docs
 )
 

@@ -6,22 +6,20 @@ import (
 	"net/http"
 	"github.com/gin-gonic/gin"
 
-	"github.com/coy102/go-starter/http"
-	"github.com/coy102/go-starter/pkg/handlers"
+	"github.com/coy102/go-starter/endpoint"
 	setting "github.com/coy102/go-starter/internal/setting"
 )
 
 func init() {
 	// logging.Setup()
 	setting.Setup()
-	handler.InitEnv()
 }
 
 // Run web server
 func Run() {
 	gin.SetMode(setting.ServerSetting.RunMode)
 
-	routersInit := controller.InitRouter()
+	routersInit := endpoint.InitRouter()
 	readTimeout := setting.ServerSetting.ReadTimeout
 	writeTimeout := setting.ServerSetting.WriteTimeout
 	endPoint := fmt.Sprintf(":%d", setting.ServerSetting.HTTPPort)
