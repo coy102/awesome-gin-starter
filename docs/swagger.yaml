@@ -1,4 +1,14 @@
-basePath: /api/v1
+basePath: /api
+definitions:
+  app.Response:
+    properties:
+      code:
+        type: integer
+      data:
+        type: object
+      msg:
+        type: string
+    type: object
 info:
   contact:
     email: martin7.heinz@gmail.com
@@ -10,5 +20,21 @@ info:
   termsOfService: http://swagger.io/terms/
   title: Blueprint Swagger API
   version: "1.0"
-paths: {}
+paths:
+  /v1/ping:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            type: string
+        "500":
+          description: Internal Server Error
+          schema:
+            type: string
+      summary: Get multiple article tags
+      tags:
+      - Ping
 swagger: "2.0"

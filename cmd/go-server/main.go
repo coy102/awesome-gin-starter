@@ -13,7 +13,7 @@ import server "github.com/coy102/go-starter/internal/server"
 // @license.name MIT
 // @license.url https://github.com/MartinHeinz/go-project-blueprint/blob/master/LICENSE
 
-// @BasePath /api/v1
+// @BasePath /api
 func main()  {
 	server.Run();
 }
