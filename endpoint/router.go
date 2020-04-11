@@ -2,7 +2,6 @@ package endpoint
 
 import (
 	"regexp"
-	"os"
 	"github.com/gin-gonic/gin"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
@@ -20,7 +19,7 @@ func InitRouter() *gin.Engine {
 	r.Use(gin.Recovery())
 
 	// Logger middleware
-	logging.LoggerFileSetup(true, r).Output(os.Stdout)
+	logging.LoggerFileSetup(gin.IsDebugging(), r)
 
 
 	apiv1 := r.Group("/api/v1")

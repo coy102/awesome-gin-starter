@@ -21,7 +21,7 @@ type Logger struct {
     logger *zerolog.Logger
 }
 
-// LoggerFileSetup GinLoggerSetup 
+// LoggerFileSetup write logs to .log file connected with gin router 
 func LoggerFileSetup(isDebug bool, r *gin.Engine) zerolog.Logger {
 	var err error
 	filePath := getLogFilePath()
