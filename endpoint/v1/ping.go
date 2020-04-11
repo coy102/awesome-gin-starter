@@ -5,6 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/coy102/go-starter/utils/app"
 	"github.com/coy102/go-starter/utils/e"
+	L "github.com/coy102/go-starter/utils/logging"
 )
 
 // @Summary Get multiple article tags
@@ -15,7 +16,7 @@ import (
 // @tags Ping
 func Ping(c *gin.Context) {
 	appG := app.Gin{C: c}
-
+	L.Debug("TEST DEBUGGING")
 	appG.Response(http.StatusOK, e.Success, map[string]string{
 		"message": "ping",
 	})

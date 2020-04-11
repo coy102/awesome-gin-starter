@@ -1,53 +1,26 @@
 package endpoint
 
 import (
-	"os"
 	"regexp"
-	"github.com/gin-contrib/logger"
+	"os"
 	"github.com/gin-gonic/gin"
-	"github.com/rs/zerolog"
-	"github.com/rs/zerolog/log"
 	"github.com/swaggo/gin-swagger"
 	"github.com/swaggo/gin-swagger/swaggerFiles"
-
 	"github.com/coy102/go-starter/endpoint/v1"
 	_ "github.com/coy102/go-starter/docs" // Generated docs
+	logging "github.com/coy102/go-starter/utils/logging"
+
 )
 
-var (
-	rxURL = regexp.MustCompile(`^/regexp\d*`)
-)
+var rxURL = regexp.MustCompile(`^/regexp\d*`)
 
 // InitRouter initialize routing information
 func InitRouter() *gin.Engine {
-
-	zerolog.SetGlobalLevel(zerolog.InfoLevel)
-	
-	// Validate gin logger for debugging mode
-	if gin.IsDebugging() {
-		zerolog.SetGlobalLevel(zerolog.DebugLevel)
-	}
-
-	// log Setup output
-	log.Logger = log.Output(
-		zerolog.ConsoleWriter{
-			Out:     os.Stderr,
-			NoColor: false,
-		},
-	)
-	
 	r := gin.New()
 	r.Use(gin.Recovery())
 
-	// Add a logger middleware
-	subLog := zerolog.New(os.Stdout).With().
-		Logger()
-
-	r.Use(logger.SetLogger(logger.Config{
-		Logger:         &subLog,
-		UTC:            true,
-		SkipPathRegexp: rxURL,
-	}))
+	// Logger middleware
+	logging.LoggerFileSetup(true, r).Output(os.Stdout)
 
 
 	apiv1 := r.Group("/api/v1")

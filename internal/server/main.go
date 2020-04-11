@@ -9,6 +9,7 @@ import (
 	setting "github.com/coy102/go-starter/internal/setting"
 )
 
+
 func init() {
 	setting.Setup()
 }
@@ -17,7 +18,7 @@ func init() {
 func Run() {
 	gin.SetMode(setting.ServerSetting.RunMode)
 
-	routersInit := endpoint.InitRouter()
+	router := endpoint.InitRouter()
 	readTimeout := setting.ServerSetting.ReadTimeout
 	writeTimeout := setting.ServerSetting.WriteTimeout
 	endPoint := fmt.Sprintf(":%d", setting.ServerSetting.HTTPPort)
@@ -26,7 +27,7 @@ func Run() {
 	// Initialize gin instance
 	server := &http.Server{
 		Addr:           endPoint,
-		Handler:        routersInit,
+		Handler:        router,
 		ReadTimeout:    readTimeout,
 		WriteTimeout:   writeTimeout,
 		MaxHeaderBytes: maxHeaderBytes,

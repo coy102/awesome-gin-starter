@@ -1,0 +1,33 @@
+{"level":"debug","time":"2020-04-11T20:47:27+07:00","message":"TEST DEBUGGING"}
+{"level":"debug","time":"2020-04-11T20:47:32+07:00","message":"TEST DEBUGGING"}
+{"level":"debug","time":"2020-04-11T20:47:33+07:00","message":"TEST DEBUGGING"}
+{"level":"debug","time":"2020-04-11T20:47:33+07:00","message":"TEST DEBUGGING"}
+{"level":"debug","time":"2020-04-11T20:48:21+07:00","message":"TEST DEBUGGING"}
+{"level":"debug","time":"2020-04-11T20:49:22+07:00","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0.9986,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:04:38+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:06:22+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:06:27+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:06:28+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:06:28+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","time":"2020-04-11T21:06:28+07:00","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0.9976,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0.9971,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0.9963,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
+{"level":"debug","message":"TEST DEBUGGING"}
+{"level":"info","status":200,"method":"GET","path":"/api/v1/ping","ip":"::1","latency":0,"user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.116 Safari/537.36 OPR/67.0.3575.130","message":"Request"}
